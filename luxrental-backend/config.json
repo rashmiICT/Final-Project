@@ -1,0 +1,4 @@
+﻿{
+    "connectionString": "mongodb+srv://rashmi:aSV8qpMgaiHn9CYl@cluster0.rt5ik.mongodb.net/?retryWrites=true&w=majority",
+    "secret": "SECRET"
+}
