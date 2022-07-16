@@ -1,0 +1,41 @@
+.BbookingContent{
+    display: flex;
+    flex-direction: row;
+    gap: 4em;
+}
+.BbookingImage{
+    display: flex;
+    flex-direction: row;
+}
+.BbookingForm h3{
+    color: #fdba00;
+}
+
+.BbookingImage img {
+    width: 430px;
+    height: 570px;
+    margin-bottom: 1em;
+    margin-left: 2em;
+    margin-top: 2em;
+}
+
+.BbookingForm > h3{
+    margin-top: 1.4em;
+    font-size: xx-large;
+    text-align: center;
+}
+.BbookingForm Form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 15px;
+    margin-top: 1.5em;
+    width: 400px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+
+
+
