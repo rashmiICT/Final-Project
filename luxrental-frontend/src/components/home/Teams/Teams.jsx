@@ -2,7 +2,6 @@ import React from 'react'
 import Heading from '../../common/Heading'
 import { team } from '../../data/Data'
 import "./team.css"
-import { Link } from "react-router-dom";
 
 const Teams = () => {
   return (
@@ -31,16 +30,17 @@ const Teams = () => {
                     ))}
                   </ul>
                   <div className='button flex'>
-                  <Link to="/contact">
+                  <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
                     <button>
                       <i className='fa fa-envelope'></i>
                       Message
                     </button>
-                    </Link>
-
+                    </a>
+                    <a href="https://apps.apple.com/us/app/call/id1500816561" target="_blank" rel="noreferrer">
                     <button className='btn4'>
                       <i className='fa fa-phone-alt'></i>
                     </button>
+                    </a>
                   </div>
                 </div>
               </div>
