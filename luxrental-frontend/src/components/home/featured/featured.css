@@ -1,0 +1,20 @@
+.featured .box {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.18);
+  border-radius: 200px;
+  text-align: center;
+  padding: 50px;
+  cursor: pointer;
+
+  
+}
+.featured .box :hover{
+  background-color: #ffbb00;
+  color: rgb(255, 170, 0);
+  cursor: pointer;
+
+}
+.featured img {
+  width: 65px;
+  height: 65px;
+  margin: auto;
+}
