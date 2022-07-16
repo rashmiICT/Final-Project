@@ -36,7 +36,7 @@ const Teams = () => {
                       Message
                     </button>
                     </a>
-                    <a href="https://apps.apple.com/us/app/call/id1500816561" target="_blank" rel="noreferrer">
+                    <a href="https://web.whatsapp.com/" target="_blank" rel="noreferrer">
                     <button className='btn4'>
                       <i className='fa fa-phone-alt'></i>
                     </button>
