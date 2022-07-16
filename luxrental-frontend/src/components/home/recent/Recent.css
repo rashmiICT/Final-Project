@@ -1,0 +1,33 @@
+.recent .text {
+    padding: 20px;
+  }
+  .recent .category span {
+    padding: 4px 15px;
+    border-radius: 2px;
+    font-weight: 600;
+    font-size: 13px;
+    display: inline-block;
+    
+  }
+  .recent .category i {
+    font-size: 20px;
+    color: #ffffff;
+  }
+  .recent p {
+    color: #ffffff;
+  }
+  .recent .button {
+    border-top:2px solid #d5d1c6;
+    padding: 5px 30px;
+  }
+
+  .recent .button:hover {
+    background-color: #ffffff; 
+    color: white;
+  }
+  .recent h4{
+    color: #fdba00;
+  }
+
+
+    
