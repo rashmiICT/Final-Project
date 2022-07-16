@@ -1,0 +1,80 @@
+.login{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255, 145, 0, 0.5),
+        rgba(217, 26, 26, 0.5)
+        ), 
+        url("https://img.freepik.com/free-photo/ladies-car-salon-woman-buying-car-elegant-woman-blue-dress-manager-give-keys-client_1157-45029.jpg?size=626&ext=jpg&uid=R48524660&ga=GA1.2.2082157458.1641189018");
+    background-size: cover;
+}
+
+.loginTitle{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-family: "Poppins", sans-serif;
+    margin-top: 6%;
+    
+}
+
+.loginForm{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: #710238;
+    padding-bottom: 3%;
+}
+
+.loginForm > label{
+    margin: 5px 0;
+    color: #fdba00;
+}
+
+.loginInput{
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    height:15%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+}
+
+.loginInput::placeholder {
+    color: rgb(154, 154, 159);
+    font-size: 12px;
+  }
+
+.loginButton{
+    margin-top: 25px;
+    cursor: pointer;
+    background-color: #fdba00;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.loginRegisterButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: #fdba00;
+    cursor: pointer;
+    border: none;
+    padding: 15px;
+    color: white;
+    border-radius: 15px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #710238;
+}
