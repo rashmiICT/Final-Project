@@ -2,6 +2,7 @@ import React from 'react'
 import Heading from '../../common/Heading'
 import { team } from '../../data/Data'
 import "./team.css"
+import { Link } from "react-router-dom";
 
 const Teams = () => {
   return (
@@ -30,10 +31,13 @@ const Teams = () => {
                     ))}
                   </ul>
                   <div className='button flex'>
+                  <Link to="/contact">
                     <button>
                       <i className='fa fa-envelope'></i>
                       Message
                     </button>
+                    </Link>
+
                     <button className='btn4'>
                       <i className='fa fa-phone-alt'></i>
                     </button>
