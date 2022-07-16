@@ -1,0 +1,69 @@
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255, 145, 0, 0.5),
+        rgba(217, 26, 26, 0.5)
+        ), 
+        url("https://img.freepik.com/free-photo/stylish-black-woman-car-salon_1157-21401.jpg?size=626&ext=jpg&uid=R48524660&ga=GA1.2.2082157458.1641189018");
+    background-size: cover;
+}
+
+.registerTitle{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin-top: 6%;
+}
+
+.registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #710238;
+    padding-bottom: 3%;
+}
+
+.registerForm > label{
+    margin: 10px 0;
+    color: #fdba00;
+}
+
+.registerInput{
+    padding: 10px;
+    background-color: #ffffff;
+    border: none;
+    margin-top: -2%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+
+}
+
+.registerInput::placeholder {
+    color: rgb(154, 154, 159);
+    font-size: 12px;
+  }
+
+.registerButton{
+    margin-top: 25px;
+    cursor: pointer;
+    background-color: #fdba00;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.registerLoginButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color:lightcoral;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
