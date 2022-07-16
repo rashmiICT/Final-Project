@@ -237,7 +237,7 @@ export const nav = [
     },
     {
       list: "42",
-      cover: "../images/customer/team-5.jpg",
+      cover: "../images/customer/team-1.jpg",
       address: "Kaluthra , Sri Lanka",
       name: "Mahesh abdul",
       icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
