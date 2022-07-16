@@ -1,0 +1,85 @@
+header {
+    background-color: #81003E;
+    height: 10vh;
+    box-shadow: 0 5px 30px rgb(9, 0, 0);
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+    color: rgb(255, 255, 255);
+  }
+  header i {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+    margin: 0 10px;
+    transition-duration: 0.4s;
+  }
+
+  header i:hover {
+    background-color: #fdba00; /* Green */
+    color: white;
+  }
+
+  header img {
+    width: 80px;
+  } 
+  header a {
+    margin-left: 40px;
+    transition: 0.5s;
+    font-weight: 500;
+  }
+  header a:hover {
+    color: #fdba00;
+  }
+  header span {
+    width: auto;
+    padding: 0px 6px;
+    background: #fdba00;
+    border-radius: 50px;
+    color: #ffffff;
+    margin-right: 4px;
+    font-weight: 400;
+  }
+  header h4 {
+    font-weight: 500;
+    margin-right: 20px;
+  }
+  header .toggle {
+    display: none;
+  }
+  @media screen and (max-width: 768px) {
+    header {
+      padding: 0;
+    }
+    header img {
+      margin-top: 30px;
+    }
+    header .button {
+      display: none;
+    }
+    header .nav .flex {
+      display: none;
+    }
+    header .toggle {
+      display: block;
+      margin-top: 20px;
+    }
+    header .small {
+      position: absolute;
+      top: 10vh;
+      left: 0;   
+      width: 100%;
+      background-color: #fdba00;
+      padding: 20px;
+    }
+    header li a {
+      display: inline-block;
+      margin-bottom: 20px;
+      color: #fff;
+    }
+
+  }
