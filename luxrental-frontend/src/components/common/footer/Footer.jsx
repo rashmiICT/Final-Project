@@ -2,8 +2,18 @@ import React from "react";
 import { footer } from "../../data/Data";
 import "./footer.css";
 import { Link } from "react-router-dom";
+import {
+  Button,
+  Dialog,
+  DialogTitle,
+  DialogContent,
+  DialogContentText,
+  DialogActions
+} from '@mui/material'
+import { useState } from 'react'
 
 const Footer = () => {
+  const [open, setOpen] = useState(false)
   return (
     <>
       <section className="footerContact">
@@ -33,7 +43,24 @@ const Footer = () => {
 
               <div className="input flex">
                 <input type="text" placeholder="Email Address" />
-                <button>Subscribe</button>
+                <button onClick={() => setOpen(true)}>Subscribe</button>
+                <Dialog
+                    open={open}
+                    onClose={() => setOpen(false)}
+                    aria-labelledby='dialog-title'
+                    aria-describedby='dialog-description'>
+                    <DialogTitle id='dialog-title'>Thank you Subscribe our Company</DialogTitle>
+                    <DialogContent>
+                      <DialogContentText id='dialog-description'>
+                        Are you sure you want to submit the test? You will not be able to
+                        edit it after submitting.
+                      </DialogContentText>
+                    </DialogContent>
+                    <DialogActions>
+                      <Button onClick={() => setOpen(false)}>OK</Button>
+              
+                    </DialogActions>
+                  </Dialog> 
               </div>
             </div>
           </div>
