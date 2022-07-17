@@ -2,7 +2,7 @@ import React from 'react'
 import { homeAbout } from '../../dummydata'
 import Heading from '../common/Heading'
 import "./abouts.css"
-import AWrapper from '../abouts/AWrapper'
+
 
 
 const AboutsCard = () => {
@@ -11,7 +11,6 @@ const AboutsCard = () => {
     <section className='aboutHome'>
       <div className="container flexSB">
       <div className="left row">
-        <img src='./images/about.png' alt=''/>
         </div>  
         <div className="right row">
         <Heading subtitle='WHY CHOOSE US?' title=' Benefits About Online Car Rental' />
@@ -32,7 +31,6 @@ const AboutsCard = () => {
         </div>
       </div>
     </section>
-    <AWrapper/>
     
     </>
   )
