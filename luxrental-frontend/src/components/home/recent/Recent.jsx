@@ -6,7 +6,8 @@ const Recent = () => {
   return (
     <> <section className='recent padding'>
         <div className="container">
-        <Heading title='Recent Property Listed' subtitle='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.' />    
+        <Heading title='Recent Property Listed' subtitle='Guaranteed! Book Online Today. Worldwide Car Rental Here.' />  
+        <Heading title='' subtitle='Brands: Toyota, Ford, Chevrolet, Chrysler, Jeep, Hyundai, Mercedes' />   
         <RecentCard/>
         </div>
         </section> 
