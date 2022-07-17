@@ -27,6 +27,7 @@ function Booking() {
             <input type='text' placeholder='Time'/>
             <input type='text' placeholder='Location'/>
             <input type='text' placeholder='Car Type'/>
+
             <button className='loginButton'>Book Now</button>
 
           </form>
