@@ -26,8 +26,11 @@ const About = () => {
                It includes type of vehicle they are trying to hire and location. 
                The purpose of this system is to develop a website for the people who can book their vehicles along with requirements from any part of the world. </p>
             
-            
-            <button className='btn2'>More About Us</button>
+               <a href="https://www.expedia.com/Cars?semcid=US.MULTILOBC.BING.GT-c-EN.CAR&semdtl=a1361580458.b11288627988844442.r1.g1kwd-80539458181094.i1.d1.e1c.j1142092.k1.f1.n1.l1o.h1e.m1&msclkid=375c7522111a1f608aee17f1ad6b08dc&utm_source=bing&utm_medium=cpc&utm_campaign=USA%3AENG%3A%5E%3AGT%3AGLOB%3AALL%3AX%3AX%3A%3A&utm_term=rent%20car&utm_content=USA%3AENG%3A%5E%3AGT%3AGLOB%3AALL%3AXX%3AX%3AX%3AX%3AX%3AX%3ANC%3Arent_car%3A" target="_blank" rel="noreferrer">
+            <button className='btn2'>
+              More About Us
+              </button>
+              </a>
           </div>
           <div className='right row'>
             <img src='./immio.jpg' alt='' />
