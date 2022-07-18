@@ -19,7 +19,7 @@ export default function Register() {
   //Local
   // const url = "http://localhost:4000/users/register";
   //Server
-  const url = "http://34.168.126.142/users/register";
+  const url = "http://34.168.126.142:4000/users/register";
 
   const registerRequest = async () => {
     return await axios.post(url, {

@@ -17,7 +17,7 @@ export default function Login({ setUser }) {
   //Local
   // const url = "http://localhost:4000/users/authenticate";
   //Server
-  const url = "http://34.168.126.142/users/authenticate";
+  const url = "http://34.168.126.142:4000/users/authenticate";
 
   const loginRequest = async (data) => {
     return await axios.post(url, {
