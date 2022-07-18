@@ -2,7 +2,7 @@ export const homeAbout = [
   {
     id: 1,
     cover: "https://cdn-icons-png.flaticon.com/128/4793/4793486.png",
-    title: "Save on your next trip",
+    title: "save",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
   },
   {
