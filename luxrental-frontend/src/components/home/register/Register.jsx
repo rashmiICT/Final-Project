@@ -16,8 +16,13 @@ export default function Register() {
     getProfile("user") && history.push("/");
   });
 
+  //Local
+  // const url = "http://localhost:4000/users/register";
+  //Server
+  const url = "http://34.168.126.142/users/register";
+
   const registerRequest = async () => {
-    return await axios.post("http://localhost:4000/users/register", {
+    return await axios.post(url, {
       firstName,
       lastName,
       username,

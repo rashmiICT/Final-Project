@@ -14,8 +14,13 @@ export default function Login({ setUser }) {
     getProfile("user") && history.push("/");
   });
 
+  //Local
+  // const url = "http://localhost:4000/users/authenticate";
+  //Server
+  const url = "http://34.168.126.142/users/authenticate";
+
   const loginRequest = async (data) => {
-    return await axios.post("http://localhost:4000/users/authenticate", {
+    return await axios.post(url, {
       username: data.userName,
       password: data.password,
     });
