@@ -1,1 +1,1 @@
-  My External IP Address : http://34.168.126.142/
+ LuxCar Rental Website External IP Address : http://34.168.126.142/
